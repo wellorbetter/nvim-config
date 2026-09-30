@@ -22,6 +22,10 @@ end, { desc = "Debug: Step Out" })
 vim.keymap.set("n", "<leader>jh", "<cmd>checkhealth vim.lsp<cr>", { desc = "Java/LSP Health" })
 
 -- A small personal layer on top of LazyVim's discoverable defaults.
+vim.keymap.set("n", "<leader><space>", function()
+  Snacks.picker.files({ cwd = LazyVim.root.get() })
+end, { desc = "Find Files (Root Dir)", nowait = true })
+
 vim.keymap.set("n", "<leader>w", "<cmd>write<cr>", { desc = "Save File" })
 vim.keymap.set("n", "<leader>cf", function()
   vim.lsp.buf.format({ async = false, timeout_ms = 2000 })

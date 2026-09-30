@@ -34,7 +34,7 @@ machine needs custom JDK, Maven, Python, parser, or compiler paths.
 ## Daily keys
 
 `<leader>` is the keyboard space bar. `Space Space` means press the space bar
-twice (within about 0.8 seconds); it is not a mouse double-click. Press space
+twice (within about 1.5 seconds); it is not a mouse double-click. Press space
 once and pause to let WhichKey show the available commands.
 
 | Key | Action |

@@ -27,4 +27,4 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.updatetime = 200
 -- Give new Vim users enough time to finish sequences such as Space Space.
-vim.opt.timeoutlen = 800
+vim.opt.timeoutlen = 1500
