@@ -6,7 +6,8 @@ Windows without turning the configuration into a second full-time project.
 
 ## What is included
 
-- Tokyo Night Moon theme, Nerd Font icons, global statusline, and a compact dashboard
+- transparent Tokyo Night Moon theme, vivid syntax/search highlights, Nerd Font icons,
+  global statusline, and a compact dashboard
 - fast project/file/text/symbol pickers and a Git-aware file explorer
 - Aerial symbol outline, breadcrumbs, sticky Treesitter context, diagnostics, and references
 - Rust support through rustaceanvim, rust-analyzer, Cargo, Clippy, tests, and debugging
@@ -32,8 +33,9 @@ machine needs custom JDK, Maven, Python, parser, or compiler paths.
 
 ## Daily keys
 
-`<leader>` is the space bar. Press space and pause to let WhichKey show the
-available commands.
+`<leader>` is the keyboard space bar. `Space Space` means press the space bar
+twice (within about 0.8 seconds); it is not a mouse double-click. Press space
+once and pause to let WhichKey show the available commands.
 
 | Key | Action |
 | --- | --- |
